@@ -1,0 +1,21 @@
+{
+  "name": "osrs-high-alch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "got": "^12.5.3",
+    "inquirer": "^9.1.4",
+    "jsdom": "^20.0.3",
+    "numeral": "^2.0.6",
+    "puppeteer": "^19.3.0",
+    "table": "^6.8.1"
+  }
+}
