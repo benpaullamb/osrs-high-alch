@@ -2,6 +2,8 @@
 
 Generates a list of items to buy from the Grand Exchange in Old School RuneScape for the highest profit per item type when using high alchemy.
 
+Builds upon [alchmate.com](https://alchmate.com/)
+
 ```
 ╔════════════════════════╤════════╤══════════╤════════╤═══════════╤═══════════╗
 ║ Item                   │ Profit │ Quantity │  Price │ Max Price │ High Alch ║
@@ -17,3 +19,11 @@ Generates a list of items to buy from the Grand Exchange in Old School RuneScape
 ║ Adamant full helm      │ 29,125 │      125 │  1,755 │     1,988 │     2,112 ║
 ╚════════════════════════╧════════╧══════════╧════════╧═══════════╧═══════════╝
 ```
+
+## Tech
+
+- Inquirer (CLI input)
+- Puppeteer (Fetch dynamic HTML)
+- JSDOM (Web scraping)
+- Numeral (Currency formatting)
+- Table (Output formatting)
